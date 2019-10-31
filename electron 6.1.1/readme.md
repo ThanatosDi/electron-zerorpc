@@ -1,5 +1,14 @@
 # Electron 6.1.1 + ZeroRPC
 
+* [1. CHT](#CHT)  
+* [2. English](#English)  
+
+
+## CHT
+* ### 詳細內容
+   * Electron 6.1.1
+   * ZeroRPC 0.9.8  
+ 
 請先將 package.json 放入專案資料夾  
 並執行
 ```shell
@@ -19,3 +28,27 @@ npm run rebuild
 yarn run rebuild
 ```
 以上執行完後即可正常執行
+
+## English
+* ### Detail
+   * Electron 6.1.1
+   * ZeroRPC 0.9.8  
+ 
+Please download and put package.json into your project directory.  
+And run command
+```shell
+npm install
+```
+or 
+```shell
+yarn install
+```
+wait for install complete, then run command to rebuild.
+```shell
+npm run rebuild
+```
+or
+```shell
+yarn run rebuild
+```
+After rebuild complete, you can run Electron and use ZeroRPC.
